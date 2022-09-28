@@ -79,6 +79,9 @@
         font-size: 1rem;
     }
 
+    #contact_ {
+        min-height: 80rem;
+    }
 
     @media (max-height:980px) {
 

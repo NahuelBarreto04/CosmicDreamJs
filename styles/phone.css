@@ -148,9 +148,12 @@
         height: auto;
     }
 
+    #lovers_,
+    #contact_ {
+        min-height: 80rem;
+    }
+
     .cards {
-        flex-direction: column;
-        flex-wrap: nowrap;
         align-items: center;
         gap: 2rem;
         width: 90%;
