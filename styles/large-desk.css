@@ -1,0 +1,72 @@
+@media (min-width:1600px) {
+
+    /* ***NAVBARRR** */
+    .nav {
+        height: 8rem;
+    }
+
+    .logo {
+        width: 20rem;
+    }
+
+    .nav__link {
+        font-size: 2.2rem;
+    }
+
+    /* ***MODIFICADORES DEL NAVLINK */
+    .nav__link--big {
+        font-size: 2.5rem
+    }
+
+    /* **HEADER** */
+    .header__text {
+        gap: 12rem;
+    }
+
+    .header__title {
+        font-size: 4.2rem;
+    }
+
+    .header__p {
+        font-size: 3rem;
+        line-height: 5rem;
+        text-shadow: 1px 1px 10px black;
+    }
+
+    .btn {
+        font-size: 2rem;
+        width: 28rem;
+        height: 7rem;
+
+    }
+
+    /* ***MAINNN*** */
+    /* ***HERO SLIDERR** */
+    /* **VIEW LINK** */
+    .hero__link-text {
+        font-size: 3rem;
+    }
+
+    /* ***CARDSS** */
+    .card {
+        height: 24rem;
+    }
+
+    .card__user {
+        width: 18rem;
+    }
+
+    .card__text {
+        font-size: 2rem;
+    }
+
+    /* ****contactt**** */
+    .hero__text-support {
+        text-align: center;
+    }
+
+    .btn--small {
+        width: 20rem;
+        height: 5rem;
+    }
+}

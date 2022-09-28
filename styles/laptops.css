@@ -1,0 +1,61 @@
+/* @import url(/src/style.css); */
+
+@media (min-width:1024px) and (max-width:1200px) {
+
+
+    /* **NAVBAR** */
+    /* ***HEADER TEXT** */
+    .header__text {}
+
+    .header__p {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    /* ***MAIN*** */
+    /* **HERO SLIDER** */
+    /* ***HERO CARDSSS*** */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card {
+        width: 60%;
+        height: 16rem;
+        gap: 3rem;
+    }
+
+    .card__user {
+        width: 12rem;
+    }
+
+    .card__text {
+        font-size: 1.3rem;
+    }
+
+    /* **SECTION FORM** */
+    .form {
+        width: 50%;
+    }
+
+    .form__btn {
+        width: 25%;
+    }
+
+    /* ***Foooter*** */
+    .footer__link {
+        font-size: 1.2rem;
+    }
+
+    .footer__text {
+        font-size: 1.1rem;
+    }
+
+    @media (max-height:970px) {
+        .card:last-child {
+            display: none;
+        }
+    }
+}

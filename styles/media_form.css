@@ -1,0 +1,111 @@
+@media (min-width:405px) and (max-width:720px) {
+
+    /* **Loginn */
+    .form-login {
+        width: 35rem;
+    }
+
+    /* ******Register******** */
+    .form-register {
+        width: 38rem;
+    }
+}
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+    * {
+        scroll-snap-type: y mandatory;
+    }
+
+    /* **Loginn */
+    .form-login {
+        width: 30rem;
+    }
+
+    /* **Register */
+    .form-register {
+        width: 32rem;
+    }
+
+    @media (max-height:500px) {
+        .form-login {
+            width: 29rem;
+            font-size: 1.2rem;
+        }
+
+        .btn_input {
+            font-size: 1.2rem;
+            height: 3.5rem;
+        }
+
+        .btn_index {
+            font-size: 1.1rem;
+        }
+
+        .inputs {
+            font-size: 1.2rem;
+            height: 4rem;
+        }
+
+        .labels {
+            font-size: 1.5rem;
+        }
+
+        /* ****REGISTER** */
+        .form-register {
+            width: 28rem;
+            font-size: 1.2rem;
+        }
+
+        .inputs_register {
+            font-size: 1.5rem;
+        }
+    }
+
+
+}
+
+@media (min-width:1600px) {
+    .login-signup h1 {
+        font-size: 2.5rem;
+    }
+
+    .form-login {
+        font-size: 2rem;
+        width: 60rem;
+        height: 70rem;
+    }
+
+    .inputs_login {
+        height: 30rem;
+    }
+
+    .inputs {
+        font-size: 2rem;
+        height: 5.3rem;
+    }
+
+    .btn_input {
+        font-size: 2rem;
+        height: 5rem;
+        width: 70%;
+    }
+
+    .btn_index {
+        font-size: 1.8rem;
+    }
+
+    /* *****REGISTER*** */
+    .form-register {
+        font-size: 2rem;
+        height: 70rem;
+        width: 55rem;
+
+    }
+
+    .inputs_register {
+        height: 35rem;
+    }
+
+}

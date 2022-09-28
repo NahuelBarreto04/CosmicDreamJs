@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/forms.css">
+    <link rel="stylesheet" href="/styles/media_form.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+
+<body>
+    <main class="form_container">
+        <div class="form fade-in hidden" id="form_login">
+            <div class="form_contents">
+                <div class="login-signup">
+                    <h1>Log in</h1>
+                </div>
+                <form name="formLogin" class="form__inputs-container">
+                    <label class="labels" for="mail__login">Enter your User:</label>
+                    <input class="inputs" name="userLogin" data-input="userLogin" id="userLogin" type="text"
+                        placeholder="User" maxlength="50">
+                    <span class="input__span-error" data-input="userLogin"></span>
+                    <label class="labels" for="pass__login">Enter your password:</label>
+                    <input class="inputs" name="passLogin" id="pass__login" data-input="passLogin" type="password"
+                        placeholder="Password" maxlength="20">
+                    <span class="input__span-error" data-input="passLogin"></span>
+                    <div class="form_buttons">
+                        <!-- <a href="/src/main-page.html"><button class="btn_input" type="button">Log in</button></a> -->
+                        <button type="submit" class="btn_input" id="btnLogin">login</button>
+                        <button class="btn_index" type="button" id="changesRegister">You have not yet
+                            registered?
+                            Sign up</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="form" id="form_register">
+            <div class="form_contents">
+                <div class="login-signup">
+                    <h1>Sing up</h1>
+                </div>
+                <form name="formRegister" class="form__inputs-container" id="login">
+                    <label class="labels" for="user">Enter your User User:</label>
+                    <input class="inputs" name="userRegister" id="user" type="text" data-input="userRegister"
+                        placeholder="User">
+                    <span class="input__span-error" data-input="userRegister"></span>
+                    <label class="labels" for="pass">Enter your password:</label>
+                    <input class="inputs" id="pass__register" name="passRegister" data-input="passRegister"
+                        type="password" placeholder="Password" maxlength="20">
+                    <span class="input__span-error" data-input="passRegister"></span>
+                    <label class="labels" for="pass_confirm">Confirm your password:</label>
+                    <input class="inputs" type="password" name="passConfirm" data-input="passConfirm" id="pass__confirm"
+                        placeholder="Confirm your password" maxlength="20">
+                    <span class="input__span-error" data-input="passConfirm"></span>
+                    <div class="form_buttons">
+                        <button class="btn_input" type="submit">Sign up</button>
+                        <button class="btn_index" type="button">Login</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <script src="js/formsJs/login.js"></script>
+    <script src="js/formsJs/register.js"></script>
+    <script src="js/formsJs/index.js"></script>
+</body>
+
+</html>

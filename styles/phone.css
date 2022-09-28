@@ -1,0 +1,267 @@
+@media (min-width:320px) and (max-width:480px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    /* **NAVBAR** */
+    .nav {
+        flex-wrap: wrap;
+    }
+
+
+    .nav__link {
+        font-size: 1.6rem;
+    }
+
+    .nav__menu {
+        order: 4;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: flex-end;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        gap: 10rem;
+        padding: 4rem 2rem;
+        background-color: var(--color-black1);
+        transform: translateX(50rem);
+    }
+
+    /* ***NAV BUTTONS*** */
+    .nav__buttons {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    /* **MODIFICADORES PARA MOSTRAR Y OCULTAR MENU** */
+    .show {
+        transform: translateX(0);
+        transition: transform .5s ease;
+    }
+
+    .ocult {
+        transform: translateX(50rem);
+        transition: transform .5s ease;
+    }
+
+    .nav__off {
+        order: 2;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .nav__link--big {
+        font-size: 1.6rem;
+    }
+
+    .nav__burger {
+        display: flex;
+        order: 3;
+        width: 100%;
+    }
+
+    .nav__icon-burguer {
+        display: flex;
+    }
+
+    .nav__closer {
+        display: none;
+    }
+
+    /* **MODIFICADORES*** */
+    .disabled {
+        display: none;
+    }
+
+    .enable {
+        display: flex;
+    }
+
+
+
+    /* ***HEADER TEXT** */
+    .header__text {
+        padding: 0;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .header__p {
+        font-size: 1.5rem;
+        width: 95%;
+        height: auto;
+
+    }
+
+    .header__title {
+        font-size: 2.3rem;
+    }
+
+
+    /* ***NAVBAR*** */
+    .logo {
+        width: 12rem;
+    }
+
+    /* ***MAIN*** */
+    .hero__title {
+        font-size: 2rem;
+    }
+
+    /* ***HERO BLOCK*** */
+    /* **HERO SLIDER** */
+    /* ***VIEW LINK** */
+    .hero__link-text {
+        font-size: 1.5rem;
+    }
+
+    /* ***HERO CARDSSS*** */
+    .hero__content--auto-height {
+        height: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 90%;
+        height: 25%;
+
+    }
+
+    .card__user {
+        width: 10rem;
+    }
+
+    .card__text {
+        font-size: 1rem;
+    }
+
+    /* *****SECTION CONTACT SUPPORT***** */
+    .hero__content--column-phone {
+        flex-direction: column;
+    }
+
+    .hero__support-img {
+        order: 1;
+        width: 90%;
+        padding: 0;
+
+    }
+
+    .hero__text-support {
+        order: 2;
+    }
+
+    .hero__text {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+
+    /* ***Foooter*** */
+    .footer {
+        gap: 2rem;
+    }
+
+    .footer__menu {
+        overflow: hidden;
+        width: 70%;
+
+    }
+
+    .footer__link {
+        font-size: 1rem;
+    }
+
+    .footer__text {
+        font-size: .8rem;
+        width: 15%;
+    }
+
+
+    /* ***MEDIA FOR HEIGHT SMALL PHONES*** */
+    @media (max-height:700px) {
+
+        .header__title {
+            font-size: 1.8rem;
+        }
+
+        .header__p {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            font-size: 1.1rem;
+            width: 16rem;
+            height: 4rem;
+        }
+
+        /* ***NAVBAR*** */
+        .logo {
+            width: 11rem;
+        }
+
+        .nav__link {
+            font-size: 1.5rem;
+        }
+
+        .nav__link--big {
+            font-size: 1.4rem;
+        }
+
+        /* **SECTION LOVERS** */
+        .hero__title {
+            font-size: 2.2rem;
+        }
+
+        /* ***cardddssss */
+
+        .card__user {
+            width: 8rem;
+
+        }
+
+        .card__text {
+            font-size: .8rem;
+        }
+
+        /* *****SECTION CONTACT SUPPORT***** */
+        .hero__text {
+            font-size: 1.5rem;
+        }
+
+        /* ***Foooter*** */
+        .footer {
+            gap: 2rem;
+        }
+
+        .footer__menu {
+            overflow: hidden;
+            width: 70%;
+
+        }
+
+        .footer__link {
+            font-size: .8rem;
+        }
+
+        .footer__text {
+            font-size: .7rem;
+            width: 15%;
+        }
+    }
+
+}
