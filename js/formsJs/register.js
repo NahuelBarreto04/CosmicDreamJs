@@ -7,7 +7,6 @@ const userLocal = (item) => {
   return localStorage.setItem("users", JSON.stringify(item));
 };
 let users = JSON.parse(localStorage.getItem("users")) || [];
-console.log(users);
 
 const allValid = (user, pass, passConfirm) => {
   return (
@@ -123,7 +122,6 @@ const validateAll = (user, pass, passConfirm) => {
 
 formRegister.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log(!allValid(formUser, formPass, formPassConfirm));
   if (!allValid(formUser, formPass, formPassConfirm)) {
     lengthError(formUser, formPass);
     confirmPassError(formPass, formPassConfirm);
@@ -131,7 +129,6 @@ formRegister.addEventListener("submit", (event) => {
     emptyError(formUser, formPass, formPassConfirm);
     return;
   } else {
-    alert("uwu");
     validateAll(formUser, formPass, formPassConfirm);
     const objUser = {
       user: formUser.value,
