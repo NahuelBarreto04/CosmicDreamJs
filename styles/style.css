@@ -134,6 +134,9 @@ a {
     color: red;
 }
 
+.fa-power-off {
+    cursor: pointer;
+}
 
 .nav__link--off-transition {
     border: none;
@@ -494,7 +497,6 @@ a {
 .lover__form-container {
     display: flex;
     justify-content: center;
-
 }
 
 .form-comment {
@@ -514,14 +516,15 @@ a {
 .lover__btn {
     background-color: blue;
     position: absolute;
-    width: 5rem;
-    height: 2rem;
+    width: 6rem;
+    height: 2.2rem;
     border: none;
     border-radius: 1rem;
     top: .8rem;
     right: 1rem;
     outline: none;
     color: var(--color-white);
+    cursor: pointer;
 
 }
 
@@ -537,11 +540,9 @@ a {
 
 .card {
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
     width: 90%;
     background-color: #181818;
-    /* border: .1rem solid red; */
     gap: 2rem;
     min-height: 10rem;
     padding: 1rem 0;
@@ -554,7 +555,7 @@ a {
 
 .card__text {
     font-family: var(--font-monserrat);
-    font-weight: var(--thin);
+    font-weight: 500;
     font-size: 1.5rem;
     color: var(--color-text);
     width: 80%;
@@ -638,6 +639,20 @@ a {
     text-align: right;
     font-size: 1.4rem;
     color: var(--color-white);
+}
+
+/* **HERO GALLERY */
+.hero__gallery {
+    margin-top: 8rem;
+}
+
+.selectGallery {
+    outline: none;
+    background-color: rgb(13, 10, 167);
+    color: #fff;
+    font-family: var(--font-poppins);
+    border: none;
+    padding: 0 1rem;
 }
 
 @media (min-height:1000px) {

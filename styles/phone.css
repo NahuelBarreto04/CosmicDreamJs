@@ -51,12 +51,15 @@
         transition: transform .5s ease;
     }
 
+
     .nav__off {
         order: 2;
         display: flex;
         justify-content: flex-end;
         width: 100%;
     }
+
+
 
     .nav__link--big {
         font-size: 1.6rem;
@@ -123,7 +126,24 @@
         font-size: 1.5rem;
     }
 
+    /* *Hero PIC OF DAYY */
+    .hero__cards-container {
+        width: 100%;
+    }
+
     /* ***HERO CARDSSS*** */
+    .lover__form-container {
+        width: 100%;
+    }
+
+    .form-comment {
+        width: 90%;
+    }
+
+    .lover__input {
+        width: 100%;
+    }
+
     .hero__content--auto-height {
         height: auto;
     }
@@ -133,6 +153,7 @@
         flex-wrap: nowrap;
         align-items: center;
         gap: 2rem;
+        width: 90%;
     }
 
     .card {
@@ -142,11 +163,11 @@
     }
 
     .card__user {
-        width: 10rem;
+        width: 4rem;
     }
 
     .card__text {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     /* *****SECTION CONTACT SUPPORT***** */
@@ -194,6 +215,9 @@
 
     /* ***MEDIA FOR HEIGHT SMALL PHONES*** */
     @media (max-height:700px) {
+        .card__title {
+            font-size: 2rem;
+        }
 
         .header__title {
             font-size: 1.8rem;
@@ -230,12 +254,12 @@
         /* ***cardddssss */
 
         .card__user {
-            width: 8rem;
+            width: 5rem;
 
         }
 
         .card__text {
-            font-size: .8rem;
+            font-size: 1.3rem;
         }
 
         /* *****SECTION CONTACT SUPPORT***** */

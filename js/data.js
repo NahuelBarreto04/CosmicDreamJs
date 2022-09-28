@@ -6,12 +6,7 @@ const fetchPics = async () => {
 };
 
 const randomComments = [
-  {
-    user: "MatiSio",
-    comments: ["El espacio me genera tranquilidad absoluta"],
-  },
-  {
-    user: "SoFrutilla",
-    comments: ["El cielo estrellado es hermoso"],
-  },
+  "The space generate absolute tranquility",
+  "The starry sky is beautiful🌟🌠",
+  "🤩🌟🌑",
 ];

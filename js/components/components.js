@@ -1,5 +1,4 @@
-const userCard = (user) => {
-  const { comment } = user;
+const userCard = (comment) => {
   return `
     <div class="card">
     <img class="card__user" src="/assets/images/userImg.svg" alt="">
